@@ -1,0 +1,643 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(275deg, red, orange);
+    height: 100%;
+    width: 100%;
+    font-family: 'Open';
+    margin: auto;
+}
+.container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Логотип и стартап */
+.menu_div{
+    margin: auto;
+    margin-right: 100px;
+    align-items: center;
+    font-size: 23px;
+    font-family: 'Popins-bold';
+    display: flex;
+}
+.menu{
+    display: flex;
+    margin: auto;
+}
+.logo{
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 30px;    
+    width: 30%;
+}
+.manu_item{
+    margin-left: 40px;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+
+}
+.link:hover{
+    opacity: 1;
+    transition: 0.2s;
+    color: #fff;
+}
+/* Логотип и стартап */
+
+
+
+/* Информационная строка */
+.second_div{
+margin-top: 2.5%;
+display: flex;
+justify-content: center;
+}
+.second_div_h3{
+    margin-top: 10%;
+    width: 500px;
+    font-size: 35px;
+    margin-left: 120px;
+    color: #001;
+}
+.second_div_p{
+    font-size: 15px;
+    color: rgb(23, 22, 22);
+}
+.second_div_btn{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    background: #FD1C68;
+    padding: 15px 40px;
+
+    border-radius: 10px;
+}
+.second_div_btn:hover{
+    background: #ff3a78c2;
+    transition: 0.2s;
+}
+.second_div_img_img{
+    width: 100%;
+}
+/* Информационная строка */
+
+
+
+
+/* О магазине и товары */
+.headline_div{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.headline_div_h3{
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(90deg,#fa0053 , #FD1C68, #fa0053);
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 15px;
+}
+.our_magazine_1_img{
+    width: 100px;
+    height: 100px;
+}
+.info_div{
+    display: flex;
+    margin-top: 50px;
+    height: 30%;
+    width: 100%;
+}
+
+.info_div_1{
+    width: 30%;
+    height: 550px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.549);
+    box-shadow: 0px 0px 5px #000;
+    overflow: hidden;
+}
+.info_tag{
+    margin-top: 0px;
+    transition: 0.5s ease-in-out;
+    background-color: transparent;
+    z-index: 100;
+    height: 100%;
+}
+.info_tag_h3{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+.info_div_1:hover .info_tag{
+    margin-top: -90%;
+}
+.info_div_1:hover .info_div_img_1{
+    transition: 0.2s;
+    opacity: 0.1;
+}
+.info_div_1_h3{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.info_hr{
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border: 0px;
+}
+.info_div_img{
+    width: 90%;
+    margin-left: 5%;
+    height: 400px;
+}
+.info_div_img_1{
+    width: 90%;
+    margin-left: 5%;
+    height: 400px;
+}
+.info_tag_h3_a{
+text-decoration: none;
+background: #FD1C68;
+padding: 10px 30px;
+border-radius: 5px;
+color: #000;
+pointer-events: none;
+z-index: 100;
+}
+.info_tag_h3_a:hover{
+    background: red;
+}
+.info_div_btn{
+    width: 50%;
+    height: 8%;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: transparent;
+    color: #fff;
+    border: 1.5px solid #fff;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.info_div_btn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s linear;
+}
+
+
+.our_magazine_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.our_magazine_1{
+    width: 32.3%;
+    margin-left: 1%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.our_magazine_p{
+    width: 80%;
+    margin: auto;
+}
+/* О магазине и товары */
+
+
+.my_magazine{
+    margin-top: 50px;
+    text-align: center;
+    background: linear-gradient(45deg,#fa0053 , #f22c6e, #fa0053);
+    width: 90%;
+    margin-left: 5%;
+    font-size: 20px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.end_div{
+background: #101110;
+width: 100%;
+height: 100%;
+bottom: 0;
+left: 0;
+color: #fff;
+margin-top: 5%;
+}
+.flex{
+    display: flex;
+}
+.div_1{
+width: 30%;
+}
+.end{
+    margin-left: 5%;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px auto;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 0.3s ease;
+    display: block;
+}
+.hamburger {
+    display: none;
+    margin-left: 60%;
+}
+
+@media all and (max-width: 3000px){
+.logo{
+    margin-left: 10%;
+}
+
+}
+@media all and (max-width: 1000px){
+.second_div_h3{
+    margin-left: 10px;
+}
+.headline_div_h3{
+    font-size: 30px;
+}
+}
+
+@media all and (max-width: 900px){
+   .second_div_h3{
+    font-size: 30px;
+    margin-top: 5%;
+   }
+   .second_div_p{
+    font-size: 13px;
+   }
+   .second_div_btn{
+    font-size: 13px;
+   }
+   .link{
+    font-size: 15px;
+   }
+ .info_div_1_h3{
+    font-size: 15px;
+ }
+ .info_tag{
+    margin-top: 10%;
+ }
+}
+
+
+
+
+
+
+
+@media all and (max-width: 760px){
+    .menu{
+        height: 200px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        background-color: orangered;
+        color: black;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    .menu_div{
+        justify-content: center;
+    }
+    .link{
+        border: 0px;
+        color: #000;
+
+    }
+    .manu_item{
+        margin-left: 5px;
+    }
+    .menu.active {
+        left: 0%;
+        height: 200px;
+        padding: 0%;
+        background: linear-gradient(45deg,#fa0053 , #f22c6e, #fa0053);
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+      }
+      .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+      }
+      .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+      }
+
+    .menu > li+li {
+        margin: 5px;
+    }
+    .hamburger {
+        display: block;
+    }
+    .second_div{
+        flex-wrap: wrap;
+    }
+    .info_div{
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .info_div_3, .info_div_1, .info_div_2{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .second_div_h3, .second_div_p, .second_div_btn{
+    text-align: center;
+    }
+    .second_div_p{
+        font-size: 15px;
+    }
+    .second_div_btn{
+        font-size: 15px;
+    }
+
+
+.info_hr{
+    height: 2px;
+}
+.info_div_img, .info_div_img_1{
+    width: 80%;
+    margin-left: 10%;
+}
+.info_div_1:hover .info_tag{
+    margin-top: -70%;
+}
+.flex{
+    flex-wrap: nowrap;
+    display: block;
+}
+.end{
+    margin-left: 0;
+}
+.end_hr1{
+    height: 2px;
+    background: #fff;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+.div_1{
+    width: 70%;
+    margin-left: 15%;
+}
+.div_1_h1{
+    font-size: 14px;
+    text-align: center;
+}
+
+}
+
+
+
+@media all and (max-width: 500px){
+    .our_magazine{
+        flex-wrap: wrap;
+    }
+    .our_magazine_1 {
+        flex-wrap: nowrap;
+        width: 100%;
+        
+    }
+    .link{
+        font-size: 15px;
+    }
+    .hamburger{
+        margin-left: 80%;
+    }
+    .headline_div_h3{
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    .info_div_1_h3{
+        font-size: 15px;
+    }
+
+    .info_div_1:hover .info_tag{
+        margin-top: -100%;
+    }
+    .my_magazine{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media all and (max-width: 400px){
+    .info_div_img, .info_div_img_1{
+        height: 270px;
+    }
+
+    .info_div_1{
+        height: 340px;
+    }
+    .info_tag_h3{
+        font-size: 15px;
+    }
+
+.logo{
+    font-size: 20px;
+}
+.hamburger{
+    margin-left: 90%;
+}
+.logo{
+    margin-left: 50px;
+}
+.marco{
+    height: 420px;
+}
+}
+
+
+
+
+@media all and (max-width: 300px){
+    .info_div_img, .info_div_img_1{
+        height: 250px;
+    }
+
+}
+@font-face{
+    font-family: 'Popins-bold';
+
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face{
+    font-family: 'Popins';
+
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face{
+    font-family: 'Popins-black';
+
+    src: url('../fonts/Poppins-Black.ttf');
+}
+@font-face{
+    font-family: 'Raleway';
+
+    src: url('../fonts/Raleway-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family: 'Roboto';
+
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+@font-face{
+    font-family: 'Roboto-black';
+
+    src: url('../fonts/Roboto-Black.ttf');
+}
+@font-face{
+    font-family: 'Open';
+
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+@font-face{
+    font-family: 'Cons';
+
+    src: url('../fonts/Constantine.ttf');
+}
+@font-face{
+    font-family: 'Intro';
+
+    src: url('../fonts/Intro.otf');
+}
+
+
+.head_title{
+    display: flex;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 350px;
+    position: relative;
+    perspective: 1000px;
+}
+.span{
+    padding: 30px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 1s;
+    color: #fff;
+    backface-visibility: hidden;
+}
+.front{
+    background-color: #00000063;
+}
+.back{
+    background-color: #00000063;
+    transform: rotateY(180deg);
+}
+.card:hover .front{
+    transform: rotateY(180deg);
+}
+.card:hover .back{
+    transform: rotateY(360deg);
+}
+
+.head_title{
+    margin: auto;
+}
+.head_block{
+    display: flex;
+    width: 1350px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;     
+    position: relative;
+    flex-wrap: wrap;
+}
+.head_first_block{
+    position: relative;
+    width: 33%;
+    margin-top: 1%;
+}
+.wrap{
+    width: 100%;
+}
+
+@media all and (max-width: 3500px){
+    .headphone_block{
+        margin-left: 20%; 
+        margin-right: 20%;   
+    }   
+}
+
+@media all and (max-width: 2000px){
+        .headphone_block{
+            margin-left: 15%;
+            margin-right: 15%;        
+        } }
+
+@media all and (max-width: 1450px){
+            .headphone_block{
+                margin-left: 1%;
+                margin-right: 1%;        
+            } }   
+            
+            
+@media all and (max-width: 1300px){
+    .headphone_block{
+        margin-left: 1%;
+        margin-right: 1%;        
+    } 
+    .head_block{
+        flex-wrap: wrap;
+    }
+.head_first_block{
+    width: 49%;
+}
+}
+
+@media all and (max-width: 900px){
+.head_first_block{
+    width: 98%;
+}
+}
+
+@media all and (max-width: 500px){
+    .card{
+        width: 300px;
+        height: 263px;
+    }
+    }
